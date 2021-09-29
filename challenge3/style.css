@@ -1,11 +1,23 @@
 /* Add your code in each class */
 .container {
+  overflow: scroll;
+  height: 300px;
+  width: 400px;
 }
 .head {
+  position: sticky;
+  color: rgb(250, 242, 166);
+  background-color: rgb(216, 127, 27);
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  overflow: auto;
+  background-color: rgb(204, 192, 160);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* This is a gift - Does not need editing */
